@@ -1,0 +1,29 @@
+
+-- Exercise 2
+
+-- Q1) Create a datbase exercise
+-- Q2) Create a table departments as per the schema depicted
+-- Q3) Create a table manufacturers as per the schema depicted
+-- Q4) Add records to the table department based on the table description.
+-- Q5) Add records to the table employees based on the table description.
+-- Q6) select distinct last name from employee
+-- Q7) Select all records from employees table where last Name ends with 'ith'
+-- Q8) Select all the data of employees whose last name is "Smith" or "Doe".
+-- Q9) Select all the data of employees that work in department 14.
+-- Q10) Select all the data of employees that do not work in department 37 or department 77.
+-- Q11) Select all the data of employees whose first name begins with an "M".
+-- Q12) Display all the names(First Name and Last name with a underscore in between as set the column name as Full Name)
+-- and SSN from employees
+-- Q13) Select the number of employees in each department 
+-- (you only need to show the department code and the number of employees).
+-- Q14) Add a new department called "Quality Assurance", with a budget of $40,000 and departmental code 11. 
+-- Q15) Add an employee called "Mary Moore" in that department, with SSN 847219811.
+-- Q16) Reduce the budget of all departments by 10%.
+-- Q17) Reassign all employees from the Research department (code 77) to the IT department (code 14).
+-- Q18) Delete from the table all employees in the IT department (code 14).
+-- Q19) Modify the columns name SSN as SS_No in the employees tabele
+-- Q20) Add a city column character length of 50 to the employees table
+-- Q21) Reset the city value to 
+-- a) Delhi for department 14 
+-- b) Mumbai for department 59
+-- c) Bangalore for department 37
