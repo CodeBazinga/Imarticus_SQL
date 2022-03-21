@@ -1,0 +1,10 @@
+S_ID,month,prod_name,sales
+1,Jan,Fruits,45000
+2,Jan,Vegetables,67000
+3,Jan,Dairy,55000
+4,Feb,Fruits,42000
+5,Feb,Vegetables,32000
+6,Feb,Dairy,52000
+7,March,Fruits,61000
+8,March,Vegetables,43000
+9,March,Dairy,92000
