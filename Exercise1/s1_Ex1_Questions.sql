@@ -19,7 +19,7 @@
 -- Q15) Add a new product: Loudspeakers, $70, manufacturer 2.
 -- Q16) Update the name of product 8 to "Laser Printer".
 -- Q17) Update the products table and set discount to 10% on all products
--- Q18) Delete the record where Product code is 11
+-- Q18) Delete the record where Product name is Loudspeakers.
 
 
 
