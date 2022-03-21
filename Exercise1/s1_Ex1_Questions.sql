@@ -4,8 +4,8 @@
 -- Q1) Create a datbase exercise
 -- Q2) Create a table manufacturers as per the schema depicted
 -- Q3) Create a table products as per the schema depicted
--- Q4) Add records to the table manufacturers
--- Q5) Add records to the table products
+-- Q4) Add records to the table manufacturers as depicted. 
+-- Q5) Add records to the table products as depicted. 
 -- Q6)  Display the names of all the products in the store.
 -- Q7) Display the names and the prices of all the products in the store.
 -- Q8) Display the name of the products with a price less than or equal to $200.
@@ -22,8 +22,3 @@
 -- Q18) Delete the record where Product name is Loudspeakers.
 
 
-
--- Questions on Joins and Sub-Queries
--- Q1) Select the average price of each manufacturer's products, showing the manufacturer's name.
--- Q2) Select the names of manufacturer whose products have an average price larger than or equal to $150.
--- Q3) Select the name and price of the cheapest product.
