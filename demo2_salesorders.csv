@@ -1,0 +1,7 @@
+ID,CustomerID,OrderDate,FinancialCode,Region,SalesRepresentative
+2001,101,2000-03-16,r1,Eastern,299
+2002,102,2000-03-17,r2,Western,399
+2003,103,2000-03-18,r3,Western,499
+2004,104,2001-01-02,y1,Eastern,599
+2005,105,2001-01-03,y2,Western,699
+2006,106,2001-01-04,y3,Eastern,799
