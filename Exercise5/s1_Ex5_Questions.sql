@@ -41,3 +41,14 @@
 --      in each warehouse.
 -- Q14) Display the warehouse codes, along with the number of boxes 
 --      in each warehouse from boxes table
+
+
+-- Queries on Joins
+-- solve using inner join
+-- Q15) Select Location, Capacity and code of each box
+-- Q16) Select code and location of all the boxes which are either insert Chicago or new York
+-- Q17) Select code, contents and location of all the boxes whose values are greater than 4 and location is not Chicago
+-- Q18) Select avg value based on location of all the boxes
+-- Q19) Select avg value based on location and contents of all the boxes
+-- Q20) Select avg value based on location of all the boxes with avg value more than 120
+-- Q21) Select sum of value based on location of all the boxes with sum value more than 120 and where capacity is greater than or equal to 3
