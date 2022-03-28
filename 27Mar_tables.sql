@@ -91,3 +91,25 @@ values
 -- course(CID,CName,start_date) 
 -- stu1_bio(Stu_ID,city,degree,grad_year,cgpa)
 
+
+
+create table employee(
+emp_id varchar(5) not null,
+emp_name varchar(20),
+dt_of_join date,
+emp_supv varchar(5),
+primary key(emp_id) ,
+foreign key(emp_supv) references employee(emp_id));
+
+
+insert into employee values
+(27863,'Ankit Sinha', '2018-06-13',null),
+(27865,'Mridul Paliwal', '2019-08-14',27863),
+(27867,'shweta Sharma', '2020-12-25',27865),
+(27869,'Vinay Verma', '2019-03-20',27867),
+(27871,'Pratyush Singh', '2019-05-20',27865),
+(27873,'Ranveer Pratap', '2020-01-22',27863);
+
+
+
+
