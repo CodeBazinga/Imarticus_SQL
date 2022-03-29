@@ -36,6 +36,37 @@ insert into Orders values(141,8,'2022-10-27',1431)
 insert into Orders values(143,9,'2021-11-20',2500)
 
 
+
+
+create table w1(
+PID int not null primary key,
+PName varchar(20),
+Sales int
+)
+
+insert into w1 values
+(12,'Cap',800),
+(13,'Bottle',700),
+(14,'Notebook',650),
+(15,'Pen',250)
+
+create table w2(
+PID int not null primary key,
+PName varchar(20),
+Sales int,
+Qty int
+)
+
+insert into w2 values
+(11,'Soap',1100,30),
+(13,'Bottle',700,10),
+(16,'Mobile Charger',1500,12),
+(18,'Bag',1350,4),
+(15,'Pen',250,15)
+
+
+
+
 CREATE TABLE my_sales (
 S_ID int not null primary key,
 month varchar(15), 
