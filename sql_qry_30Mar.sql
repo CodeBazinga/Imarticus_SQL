@@ -31,7 +31,8 @@ foreign key (F_No) references flight_details(FNo),
 foreign key (Tr_ID) references Transact(TID)
 )
 
--- F_No( 'AI-745' - 'AI-750','IN-545','IN-549','SJ-324','SJ-320')
+-- F_No( 'AI-745' - 'AI-750','IN-545','IN-549','SJ-324','SJ-330')
 -- Tr_ID(78965-78981)
 -- Age (18-65)
-
+-- PName ('Ankit Srivastava')
+-- 25-30 records
