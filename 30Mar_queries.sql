@@ -100,9 +100,95 @@ select count(distinct course) from stu
 select avg(age) as AvgAge, sum(age) as SumAge,min(age) as MinAge,
 max(age) as MaxAge,count(age) as Count_Rows from stu
 
+show tables
 select * from stu
+-- SID,FirstName,LName,age,course,join_date,city
+describe stu 
 
+alter table stu drop pin
+drop table course
 
+create table course(
+CID int primary key,
+CName varchar(20) not null,
+start_date date
+)
+
+create table emp(
+EID int primary key,
+EName varchar(30) not null,
+age int,
+C_ID int,
+marks int,
+city varchar(20),
+foreign key (C_ID) references course(CID)
+)
+
+insert into course 
+values
+(121,'SQL','2022-04-15'),
+(122,'ML','2022-05-01'),
+(123,'DL','2022-03-20'),
+(124,'DS','2022-03-01'),
+(125,'Tableau','2022-06-20'),
+(126,'Excel','2022-06-01');
+
+insert into course values (127,'Power BI','2022-07-01')
+
+insert into emp (EID,Ename,age,C_ID,marks,city)
+values
+(10,'Ankush',25,121,78,'Delhi'),
+(11,'Shikha',24,121,91,'Mumbai'),
+(12,'Shreyash',null,123,84,'Noida'),
+(13,'Hitesh',27,124,70,'Delhi'),
+(14,'Mohit',26,125,76,'Bangalore'),
+(15,'Ankit',25,125,89,'Kolkata'),
+(16,'Srinath',22,126,null,'Mumbai'),
+(17,'Menaakshi',23,122,93,'Kolkata'),
+(18,'Anjali',22,121,68,'Noida'),
+(19,'Vibhor',null,124,65,'Bangalore'),
+(20,'Prateek',27,126,81,'Noida')
  
+ insert into emp values(21,'abc',25,126,83,'Mumbai')
+ 
+select * from course 
+-- CID,CName, start_date
+select * from emp
+-- EID,Ename, age,C_ID,marks,city
 
+select c.cname, c.start_date, e.ename,e.age,e.marks
+from course c
+inner join emp e
+on c.cid = e.c_id
+
+
+select c.cid,c.cname, c.start_date, e.ename,e.age,e.marks
+from course c
+join emp e
+on c.cid = e.c_id
+
+select c.cid,c.cname, c.start_date, e.ename,e.age,e.marks
+from course c
+left join emp e
+on c.cid = e.c_id
+
+select c.cid,c.cname, c.start_date, e.ename,e.age,e.marks
+from course c
+right join emp e
+on c.cid = e.c_id
+
+-- Full Join
+select c.cid,c.cname, c.start_date, e.ename,e.age,e.marks,e.city
+from course c
+left join emp e
+on c.cid = e.c_id
+union
+select c.cid,c.cname, c.start_date, e.ename,e.age,e.marks,e.city
+from course c
+right join emp e
+on c.cid = e.c_id
+
+
+
+-- group by
 
