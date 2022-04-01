@@ -188,4 +188,4 @@ select * from flight_details
 -- whose age is more than avg age of passengers travellling in that airlines. 
 -- Use a correlated sub query 
 -- Q23) Display all transation details for the passengers where the 
--- flight duration is not more than 2.30hrs
+-- flight duration is not more than 2.30hrs.Use nested sub query
