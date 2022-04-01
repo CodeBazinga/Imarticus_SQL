@@ -162,8 +162,8 @@ select * from flight_details
 -- Q11) Select PID,PName,Transaction_Mode, transaction_amount, Booking_Date, Age, 
 -- Flight_No, Journey date, depart time, arrival time, source city and dest city
 -- where flight departure time is on or after 6pm
--- Q12) Select passenger id, passenger names,depart time,arrival time, transaction mode 
--- where the time diff in minutes(including hours time) between arr_time 
+-- Q12) Select passenger id, passenger names,depart time,arrival time, transaction mode, 
+-- time diff in minutes(including hours time) between arr_time 
 -- and dest_time for passengers where Transcation mode is 'NB' or 'CC'
 -- Q13) Select Count of passengers per flight no
 -- Q14) Display count of passengers based on airlines(Indigo, SpiceJet, Air India)
