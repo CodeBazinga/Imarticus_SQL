@@ -183,7 +183,9 @@ select * from flight_details
 -- and transaction amount renamed as DiscountedAmt
 -- Q21) Select transaction mode wise maximum age from tables 
 -- oredered in ascending order of maximum age. Use sub query
--- Q22) Find all passnegers details in each airlines whose age is more than avg age of
--- passengers travellling in that airlines. Use a correlated sub query 
+-- Q22) Find PID,passenger Names, Booking_date, Tr_ID, Age in each 
+-- airlines(Indigo,SpiceJet,Air India) 
+-- whose age is more than avg age of passengers travellling in that airlines. 
+-- Use a correlated sub query 
 -- Q23) Display all transation details for the passengers where the 
 -- flight duration is not more than 2.30hrs
