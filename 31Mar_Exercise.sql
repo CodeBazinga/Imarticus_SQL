@@ -173,7 +173,7 @@ select * from flight_details
 -- Q16) Display the passenger names, their IDs, FNo,age whose age is greater than
 -- avg age of all passengers whose airlines is either Air India or Spice Jet. Use sub query
 -- Q17) Display count and percentage of successful and failed transactions
--- Q18) Select all passengers names, PID, flight who have failed transcations
+-- Q18) Select all passengers names, PID, flight_number, transaction_success details who have failed transcations
 -- Q19) Create a view containing the below mentioned query
 -- a) Select airlines based sum of transaction amount and display them in descending order.
 --    The view name has to be Airline_SumAmt
