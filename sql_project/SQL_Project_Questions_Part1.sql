@@ -1,0 +1,44 @@
+
+-- Q1) Select count of customers based on customer type
+-- Q2) Select branch wise count of emp in descending order of count
+-- Q3) Select designation wise count of emp ID in descending order of count
+-- Q4) Select Count of customer based on payment status in descending order of count
+-- Q5) Select Count of customer based on payment mode in descending order of count
+-- Q6) Select Count of customer based on shipment_domain in descending order of count
+-- Q7) Select Count of customer based on ser_type in descending order of count
+-- Q8) Select Count of customer based on ser_type in descending order of count
+-- Q9) Find C_ID,M_ID and tenure for those customers whose membership tenure is over 10 years.
+-- Sort them in decreasing order of Tenure
+-- Q10) Find average payment amount based on Customer Type where payment mode as COD
+-- Q11) Find avg payment amount based on payment mode where payment date is not null
+-- Q12) Find sum of shipment charges based on payment_mode where service type is not regular
+-- Q13) Find avg shipment weight based on payment_status where shipment domain does not start with H
+-- Q14) Find mean of payment amount based on shipping domain where service type 
+-- is Express and payment status is paid
+-- Q15) Find avg of shipment weight and shipment charges based on shipment status
+-- Q16) Display Sh_ID, shipment status,shipment_weight and delivery date where 
+-- shipment weight is over 1000 and payment is done is Quarter 3
+-- Q17) Display Sh_ID, shipment charges and shipment_weight and sent date where 
+-- current_status is Not delivered and payment mode is Card_Payment
+-- Q18) Select all records from shipment_details where shipping charges is greater than 
+-- avg shipping charges for all the customers
+-- Q19) Select average shipping weight and sum of shipping charges based on
+-- shipping domain.
+-- Q20) Find customer names, their email, contact,c_type and payment amount where C_type 
+-- is either Wholesale or Retail
+-- Q21) Find Emp_Id,Emp_Name, C_Id, shipping charges  the employees are managing customers 
+-- whose shipping charges are over 1000
+-- Q22) Find Emp_deisgnation wise the count of Customers that the employees of different
+-- designation are handling in decreasing order of customer count
+-- Q23) Find Emp_deisgnation wise the count of Customers that the employees of different
+-- designation are handling in decreasing order of customer count where the employess are
+-- handling customers whose payment amount is greater than 
+-- avg payment amount by all other customers
+-- Q24) Find Employee branch and employee designation wise count of employee designation
+-- who have managed customers whose shipping weight < 500. 
+-- Display result in descending order of count
+-- Q25) Find shipping content wise count of Employees for the employees who have managed
+-- customers where shipping domain is International and shipping charges are greater 
+-- than average shiiping charges for all the cutomers.
+-- Display result in descending order of count.
+
